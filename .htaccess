@@ -1,0 +1,11 @@
+Options -Indexes
+
+RewriteEngine On
+
+# Return 404 for sensitive files so scanners see "not found" instead of "forbidden".
+RewriteRule (?i)^(db\.sql|docker-compose\.ya?ml|dockerfile|composer\.(json|lock)|package(-lock)?\.json|yarn\.lock|pnpm-lock\.yaml|phpunit\.xml(\.dist)?|\.dockerignore|\.gitignore|readme(\..*)?)$ - [R=404,L]
+RewriteRule (?i)^.*\.(sql|sqlite|bak|backup|old|orig|swp|dist|ini|log|ya?ml|toml|env|sh)$ - [R=404,L]
+
+# Hide hidden/dev paths as 404 too (except .well-known for ACME challenges).
+RewriteRule (^|/)\.(?!well-known/) - [R=404,L]
+RewriteRule (?i)^(\.vscode|\.idea|\.git|tests?|spec|docs?)(/|$) - [R=404,L]
