@@ -1,0 +1,6 @@
+<svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="220" fill="#f6f8fa"/>
+  <rect x="90" y="40" width="8" height="150" fill="#4b5563"/>
+  <path d="M98 50H220L195 80L220 110H98Z" fill="#dc2626"/>
+  <text x="160" y="205" text-anchor="middle" font-family="Arial" font-size="16" fill="#111827">Flag</text>
+</svg>

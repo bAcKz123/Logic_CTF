@@ -1,0 +1,5 @@
+<svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="220" fill="#f6f8fa"/>
+  <path d="M110 45L140 30H180L210 45L240 80L210 100L195 75V185H125V75L110 100L80 80L110 45Z" fill="#3b82f6"/>
+  <text x="160" y="205" text-anchor="middle" font-family="Arial" font-size="16" fill="#111827">Shirt</text>
+</svg>

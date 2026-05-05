@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="outerGold" cx="32%" cy="28%" r="75%">
+      <stop offset="0%" stop-color="#fff4b8"/>
+      <stop offset="55%" stop-color="#f5c948"/>
+      <stop offset="100%" stop-color="#cf8e16"/>
+    </radialGradient>
+    <radialGradient id="innerGold" cx="30%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#fff7ca"/>
+      <stop offset="65%" stop-color="#f2c94c"/>
+      <stop offset="100%" stop-color="#d49a1e"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="32" cy="32" r="30" fill="url(#outerGold)" stroke="#e7b93d" stroke-width="1.5"/>
+  <circle cx="32" cy="32" r="25.8" fill="none" stroke="#f8dd76" stroke-width="1.2"/>
+  <circle cx="32" cy="32" r="22" fill="url(#innerGold)" stroke="#c98b17" stroke-width="1"/>
+  <ellipse cx="25" cy="22" rx="18" ry="11" fill="url(#shine)" transform="rotate(-24 25 22)"/>
+</svg>
