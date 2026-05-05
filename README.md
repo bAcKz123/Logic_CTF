@@ -16,7 +16,7 @@
 ## Cài đặt nhanh
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/bAcKz123/Logic_CTF.git
 cd Logic_CTF
 docker compose up -d --build
 ```
